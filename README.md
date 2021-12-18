@@ -1,4 +1,4 @@
-# Color-by-number
+# Color by number
 Tool that takes your photo and generates a pixelated color by number photo.
 
 ## Requirements
@@ -12,19 +12,21 @@ Program will generate 3 pictures:
 * repetitions.png (shows how much of each color is needed and which symbol is associated with it)
 
 ## Example
-The parameters I used: number of rows = 60, number of colors = 15
+The parameters I used: 
+* number of rows = 60
+* number of colors = 15
 
 template picture:
 
-<img src="https://github.com/lukasimcic/Color-by-number/blob/main/example/template.jpg?raw=true" width="500" height="500">
+<img src="https://github.com/lukasimcic/Color-by-number/blob/main/example/template.jpg?raw=true" width="700" height="700">
 
 result:
 
-<img src="https://github.com/lukasimcic/Color-by-number/blob/main/example/result.png?raw=true" width="500" height="500">
+<img src="https://github.com/lukasimcic/Color-by-number/blob/main/example/result.png?raw=true" width="700" height="700">
 
 colored result: 
 
-<img src="https://github.com/lukasimcic/Color-by-number/blob/main/example/colored%20result.png?raw=true" width="500" height="500">
+<img src="https://github.com/lukasimcic/Color-by-number/blob/main/example/colored%20result.png?raw=true" width="700" height="700">
 
 repetitions: 
 
