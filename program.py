@@ -96,9 +96,6 @@ for k in range(W):
         output.paste(symbols_pictures[colors.index(color)], (x, y))
 output.save("result.png")
 
-print(colors)
-print(repetitions)
-
 # save repetitions
 n = len([c for c in repetitions if c != 0])
 w, h = (500, n) if n <= 10 else (1000, math.ceil(n / 2))
