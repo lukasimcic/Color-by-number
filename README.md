@@ -4,7 +4,8 @@ Tool that takes your photo and generates a pixelated color by number photo.
 ## Requirements
 You need to have python installed on your computer.
 Also, modules Pillow and colorthief are required. To install them, use
-  
+
+    $ pip install --upgrade pip
     $ pip install --upgrade Pillow
     $ pip install colorthief
 
