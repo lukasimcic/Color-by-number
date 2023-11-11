@@ -1,5 +1,5 @@
 # Color by number
-Tool that takes your photo and generates a pixelated color by number photo.
+Tool that takes your photo and generates a pixelated color by number photo. Made for a Christmas gift.
 
 ## Requirements
 You need to have python installed on your computer.
