@@ -69,7 +69,7 @@ symbols_pictures = []
 for j in range(NUMBER_OF_COLORS):
     background = Image.new('RGB', (60, 60), color = (250, 250, 250))
     draw = ImageDraw.Draw(background)
-    draw.text((18,9), symbols[j], fill=(0, 0, 0), font=ImageFont.truetype("arial.ttf", 40))
+    draw.text((18,9), symbols[j], fill=(0, 0, 0))
     background = ImageOps.expand(background, border=1, fill='black')
     symbols_pictures.append(background)
 
@@ -104,7 +104,7 @@ draw = ImageDraw.Draw(repetition_picture)
 for k in range(n):
     x, y = (0, k) if (k < h) else (500, (k % math.ceil(n / 2)))
     repetition_picture.paste(Image.new('RGB', (200, 200), color = colors[k]), (x, 200 * y))
-    draw.text((x + 210, 200 * y + 70), f" {symbols[k]}  -  x{repetitions[k]}", fill=(0, 0, 0), font=ImageFont.truetype("arial.ttf", 50))
+    draw.text((x + 210, 200 * y + 70), f" {symbols[k]}  -  x{repetitions[k]}", fill=(0, 0, 0))
 repetition_picture.save("repetitions.png")
 
 # save colored result
